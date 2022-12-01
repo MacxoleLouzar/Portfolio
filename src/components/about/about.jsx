@@ -32,9 +32,9 @@ const about = () => {
             </article>
           </div>
           <p>
-            lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis fugiat temporibus, 
-            eveniet aliquid animi facere mollitia illo totam necessitatibus ad saepe! Consectetur explicabo velit cum blanditiis
-            temporibus eligendi quo laboriosam.
+          I am a loyal dedicated person and have proven to be competent and reliable in any situation, I
+           particularly enjoy working with people daily. I am a fast learner and I adapt easy. I take part
+           in everything I do and always strive for perfection in working environment.
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>

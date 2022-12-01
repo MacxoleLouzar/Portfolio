@@ -7,7 +7,7 @@ const data = [
     id: 1,
     image: IMG1,
     title: 'The project I have done',
-    github: 'https://github.com',
+    github: 'https://github.com/MacxoleLouzar',
     demo: 'http://gitlab.com'
   }
 ]
@@ -26,7 +26,7 @@ const portfolio = () => {
               <div className='project_item-image'>
                 <img src={image} alt=""/>
               </div>
-              <h3>This is a project tittle</h3>
+              <h3>Check all my project here!</h3>
               <div className='project_item-cta'>
                   <a href={github} className='btn' target='_blank'>Github</a>
                   <a href={demo} className='btn btn-primary' target='_blank'>GitLab</a>

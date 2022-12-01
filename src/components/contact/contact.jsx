@@ -1,8 +1,8 @@
 import React from 'react'
 import './contact.css'
-import {TfiEmail} from 'react-icons/Tfi'
-import {BsLinkedin} from 'react-icons/Bs'
-import {BsWhatsapp} from 'react-icons/Bs'
+import {TfiEmail} from 'react-icons/tfi'
+import {BsLinkedin} from 'react-icons/bs'
+import {BsWhatsapp} from 'react-icons/bs'
 
 const contact = () => {
   return (
@@ -15,7 +15,7 @@ const contact = () => {
                  <article className="contact_option">
                   <TfiEmail className='contact_option-icon'/>
                       <h4>Email</h4>
-                      <h5>macxolelouzaar@gmail.com</h5>
+                      <h5>louzaarr@gmail.com</h5>
                       <a href='mailto:macxolelouzaar@gmail.com' target="_blank">Send me message</a>
                  </article> 
 
@@ -23,7 +23,7 @@ const contact = () => {
                   <BsLinkedin className='contact_option-icon'/>
                       <h4>LinkedIn</h4>
                       <h5>Masixole Mtsikini</h5>
-                      <a href='https://wwww.linkedin.com' target="_blank">Send me message</a>
+                      <a href='https://www.linkedin.com/in/masixole-mtsikini-0538a5119/' target="_blank">Send me message</a>
                  </article> 
 
                  <article className="contact_option">

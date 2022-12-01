@@ -20,7 +20,6 @@ const Nav = () => {
       <a href='#contact'onClick={()=>setActiveNav('#contact' ? 'active':'')} className={activeNav === '#contact' ? 'active' : ''}><MdOutlineContactMail/></a>
       <a href='#service'onClick={()=>setActiveNav('#service' ? 'active':'')} className={activeNav === '#service' ? 'active' : ''}><GrServices/></a>
       <a href='#experience'onClick={()=>setActiveNav('#experience' ? 'active':'')} className={activeNav === '#experience' ? 'active' : ''}><MdWorkOff/></a>
-      <a href='#education'onClick={()=>setActiveNav('#education' ? 'active':'')} className={activeNav === '#education' ? 'active' : ''}><MdCastForEducation/></a>
       <a href='#reference'onClick={()=>setActiveNav('#reference' ? 'active':'')} className={activeNav === '#reference' ? 'active' : ''}><VscReferences/></a>
     </nav>
   )

@@ -14,7 +14,7 @@
     --color-bg: #90825c;
     --color-bg-variant: rgb(154, 152, 168);
     --color-primary: rgb(65, 87, 132);
-    --color-primary-variant: rgb(157, 87, 37);
+    --color-primary-variant: rgb(33, 115, 214);
     --color-white: #fff;
     --color-light: rgb(228, 214, 212);
 
@@ -114,7 +114,6 @@ img {
    .container{
       width: var(--container-width-md);
    }
-
    section {
       margin-top: 5rem;
    }
@@ -125,7 +124,6 @@ img {
    .container{
       width: var(--container-width-sm);
    }
-
    section > h2 {
       margin-top: 2rem;
    }

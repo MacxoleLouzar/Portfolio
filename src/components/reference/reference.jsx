@@ -25,17 +25,20 @@ const data = [
   {
     avatar: avatar1,
     name: "Yonela Mtsikini",
-    reference_review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis eligendi dolorum!'
+    cell: "078 562 8891",
+    reference_review: 'aymtisikini@yahoo.com'
   },
   {
     avatar: avatar2,
     name: "Thabiso Jali",
-    reference_review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis eligendi dolorum!'
+    cell: "065 012 7911",
+    reference_review: 'Jali45@gmail.com'
   },
   {
     avatar: avatar3,
     name: "Buhle Singo",
-    reference_review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis eligendi dolorum!'
+    cell: "060 559 1241",
+    reference_review: 'tinasingo@gmail.com'
   }
 ]
 
@@ -43,7 +46,7 @@ const reference = () => {
   return (
     
     <section id='reference'>
-      <h5> Review from people</h5>
+      <h5>People who know me</h5>
       <h2>References</h2>
 
       <Swiper className='container reference_container' 
@@ -55,12 +58,13 @@ const reference = () => {
         navigation={{clickable: true}} 
         pagination={{ clickable: true }}>
       {
-        data.map(({avatar, name, reference_review}, index)=>(
+        data.map(({avatar, name, cell, reference_review}, index)=>(
           <SwiperSlide key={index} className='references'>
           <div className='avatar'>
             <img src={avatar} alt="Avatar One"/>
             </div>
             <h5 className='name'>{name}</h5>
+            <h5>{cell}</h5>
             <small className='reference_review'>
              {reference_review}
             </small>

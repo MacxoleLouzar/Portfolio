@@ -37,10 +37,10 @@ header {
 
 .me {
     background: linear-gradient(var(--color-primary), transparent);
-    width: 15rem;
-    height: 20rem;
+    width: 20rem;
+    height: 30rem;
     position: absolute;
-    left: calc(68% - 11rem);
+    left: calc(55% - 11rem);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
@@ -55,16 +55,22 @@ header {
     font-weight: 300;
     font-size: 0.9rem;
 }
+h1 {
+    background: var(--color-primary);
+}
 
 @media screen and(max-width: 1024px) {
     header {
-        height: 68vh;
+        height: 50vh;
+        padding-top: 3rem;
     }
+   
 }
 
 @media screen and(max-width: 600px) {
     header {
-        height: 100vh;
+        height: 40vh;
+        padding-top: 3rem;
     }
     .header_social,
     .scroll_down{
