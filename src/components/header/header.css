@@ -37,12 +37,12 @@ header {
 
 .me {
     background: linear-gradient(var(--color-primary), transparent);
-    width: 20rem;
+    width: 30rem;
     height: 30rem;
     position: absolute;
-    left: calc(55% - 11rem);
+    left: calc(50% - 11rem);
     margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
+    border-radius: 12rem 0 12rem 0;
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem;
 }
@@ -54,9 +54,6 @@ header {
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
-}
-h1 {
-    background: var(--color-primary);
 }
 
 @media screen and(max-width: 1024px) {

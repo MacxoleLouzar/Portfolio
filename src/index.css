@@ -11,12 +11,13 @@
  }
 
  :root {
-    --color-bg: #90825c;
-    --color-bg-variant: rgb(154, 152, 168);
-    --color-primary: rgb(65, 87, 132);
-    --color-primary-variant: rgb(33, 115, 214);
+    --color-bg: #a7a597;
+    --color-bg-variant: rgb(170, 188, 210);
+    --color-primary: rgb(57, 82, 101);
+    --color-primary-variant: rgb(22, 42, 66);
+    --color-black: rgba(1, 1, 1, 0.995);
     --color-white: #fff;
-    --color-light: rgb(228, 214, 212);
+    --color-light: rgb(122, 78, 71);
 
     --transition: all 400ms ease;
     
@@ -37,7 +38,7 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(./asserts/bgt.jpg);
+    /* background-image: url(./asserts/bgt.jpg); */
 }
 /* ----- Style--------*/
 .container {
@@ -60,11 +61,11 @@ section{
 section > h2,
 section > h5{
    text-align: center;
-   color: var(--color-light);
+   color: var(--color-white);
 }
 
 section > h2{
-   color: var(--color-primary);
+   color: var(--color-white);
    margin-bottom: 3rem;
 }
 
