@@ -24,14 +24,6 @@
     color: var(--color-white);
 }
 
-.text-light > h5 small {
-   color: var(--color-white);
-}
-
-.div {
-    color: var(--color-white);
-}
-
 .experience_content {
     display: grid;
     grid-template-columns: 1fr;

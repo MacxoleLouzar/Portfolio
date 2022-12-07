@@ -17,7 +17,7 @@
     --color-primary-variant: rgb(22, 42, 66);
     --color-black: rgba(1, 1, 1, 0.995);
     --color-white: #fff;
-    --color-light: rgb(122, 78, 71);
+    --color-light: rgb(114, 71, 50);
 
     --transition: all 400ms ease;
     
@@ -70,7 +70,7 @@ section > h2{
 }
 
 .text-light {
-   color: var(--color-light);
+   color: var(--color-white);
 }
 
 a {
