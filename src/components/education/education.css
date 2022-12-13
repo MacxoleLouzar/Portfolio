@@ -8,7 +8,7 @@
     background-color: var(--color-bg);
 }
 
-.qualification_tabs {
+.qaulification_tabs {
     display: flex;
     justify-content: center;
     margin-bottom: 2rem;
@@ -22,7 +22,7 @@
     cursor: pointer;
 }
 
-.qualification_button:hover {
+.qaulification_button:hover {
     color: var(--color-primary-variant);
 }
 .qualification_icon {
@@ -31,7 +31,7 @@
 }
 
 .qualification_active {
-    color: var(--color-primary);
+    color: var(--color-black);
 }
 .qualification_section {
     display: grid;

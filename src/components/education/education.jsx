@@ -1,5 +1,6 @@
 import React from 'react'
 import './education.css'
+import 'boxicons'
 
 const education = () => {
   return (

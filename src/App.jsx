@@ -7,7 +7,7 @@ import Service from './components/services/service'
 import Portfolio from './components/portfolio/portfolio'
 import Education from './components/education/education'
 import Reference from './components/reference/reference'
-import Contact from './components/contact/contact'
+import Contact from './components/contact/Contact'
 import Footer from './components/footer/footer'
 
 
